@@ -36,6 +36,7 @@ img {
 
 .card-wrapper {
   max-width: 24rem;
+  height: 33.5rem;
   background: rgb(255, 255, 255);
   box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
   border-radius: 1rem;
@@ -77,6 +78,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  margin-bottom: 1rem;
 }
 
 .card-content-techs,

@@ -48,7 +48,7 @@ body {
   min-height: 100vh;
   font-size: 16px;
   font-family: "Poppins", sans-serif;
-  background: var(--red) url("../images/bg-intro.png") center no-repeat;
+  background: var(--red) url("images/bg-intro.png") center no-repeat;
   display: flex;
   align-items: center;
 }
@@ -142,4 +142,13 @@ form input {
   .component-form {
     width: 100%;
   }
+}
+
+.attribution {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
 }

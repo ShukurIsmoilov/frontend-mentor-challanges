@@ -4,12 +4,18 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(214, 226, 240);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(214, 226, 240);
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
 }
 
 .qr-card {
@@ -17,8 +23,6 @@ body {
   padding: 15px 15px 40px 15px;
   text-align: center;
   color: rgb(31, 50, 81);
-  font-family: "Outfit", sans-serif;
-  font-size: 15px;
   background-color: rgb(255, 255, 255);
   box-shadow: 0 0 5px 1px rgb(123, 135, 157);
   border-radius: 15px;
@@ -41,10 +45,10 @@ body {
 }
 
 .attribution {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px;
-    text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
 }
