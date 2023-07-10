@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --red: hsl(0, 100%, 74%);
+  --green: hsl(154, 59%, 51%);
+  --blue: hsl(248, 32%, 49%);
+  --dark-blue: hsl(249, 10%, 26%);
+  --grayish-blue: hsl(246, 25%, 77%);
+  --transparent-black: hsla(0, 0%, 0%, 0.1);
+}
+
+.red-text {
+  color: var(--red);
+}
+
+a {
+  text-decoration: none;
+}
+
+.hidden {
+  opacity: 0;
+}
+.error-label {
+  border-color: var(--red);
+}
+.error-input-text {
+  color: var(--red);
+}
+
+.error-message {
+  color: var(--red);
+  font-size: 0.7rem;
+  text-align: right;
+  margin-bottom: 0.6rem;
+  font-style: italic;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+body {
+  min-height: 100vh;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  background: var(--red) url("../images/bg-intro.png") center no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.component-wrapper {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.component-content {
+  max-width: 420px;
+  color: var(--white);
+}
+
+.component-content p {
+  font-size: 0.8rem;
+}
+
+.component-form {
+  width: 420px;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1.3rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--white);
+  border-radius: 0.5rem;
+  border: none;
+}
+
+.free-trial-link {
+  background-color: var(--blue);
+  box-shadow: 0 0.4rem 0 0 var(--transparent-black);
+}
+
+form {
+  width: 100%;
+  color: var(--dark-blue);
+  background-color: var(--white);
+  border-radius: 0.5rem;
+  box-shadow: 0 0.4rem 0 0 var(--transparent-black);
+  padding: 2rem;
+}
+
+form label {
+  padding: 0.6rem 0.8rem;
+
+  border-radius: 0.2rem;
+  border: 1px solid var(--grayish-blue);
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+form input {
+  font-weight: bold;
+  outline: none;
+  border: none;
+  margin-right: auto;
+  width: 90%;
+}
+
+.submit-button {
+  background-color: var(--green);
+  border-radius: 0.2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.terms-text {
+  color: var(--grayish-blue);
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+@media screen and (max-width: 910px) {
+  .component-content {
+    text-align: center;
+  }
+
+  .component-form {
+    width: 100%;
+  }
+}

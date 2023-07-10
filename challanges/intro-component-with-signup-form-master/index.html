@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Intro component with sign up form</title>
+  </head>
+  <body>
+    <div class="component-wrapper">
+      <div class="component-content">
+        <h1>Learn to code by watching others</h1>
+        <p>
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </div>
+      <div class="component-form">
+        <div class="button free-trial-link" href="#">
+          <b> Try it free 7 days</b> then $20/mo. thereafter
+        </div>
+        <form id="form">
+          <label id="first-name-label" for="first-name-input">
+            <input
+              id="first-name-input"
+              type="text"
+              required
+              placeholder="First Name"
+            />
+            <img src="images/icon-error.svg" alt="error icon" class="hidden" />
+          </label>
+          <div id="fn-err-mess" class="error-message hidden">
+            First Name cannot be empty
+          </div>
+          <label for="last-name-input">
+            <input
+              id="last-name-input"
+              type="text"
+              required
+              placeholder="Last Name"
+            />
+            <img src="images/icon-error.svg" alt="error icon" class="hidden" />
+          </label>
+
+          <div id="ln-err-mess" class="error-message hidden">
+            Last Name cannot be empty
+          </div>
+
+          <label for="mail-input">
+            <input
+              id="mail-input"
+              type="mail"
+              required
+              placeholder="Email Address"
+            />
+            <img src="images/icon-error.svg" alt="error icon" class="hidden" />
+          </label>
+
+          <div id="mail-err-mess" class="error-message hidden">
+            Looks like this is not an email
+          </div>
+
+          <label for="password-input">
+            <input
+              id="password-input"
+              type="password"
+              required
+              placeholder="Password"
+            />
+            <img src="images/icon-error.svg" alt="error icon" class="hidden" />
+          </label>
+
+          <div id="pwd-err-mess" class="error-message hidden">
+            Password cannot be empty
+          </div>
+
+          <button class="button submit-button">Claim your free trial</button>
+          <p class="terms-text">
+            By clicking the button, you are agreeing to our
+            <a class="red-text" href="#"> Terms and Services</a>
+          </p>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
