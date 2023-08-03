@@ -122,8 +122,21 @@ img {
   border: 1px solid rgba(48, 168, 220, 0.5);
 }
 
+.intermediate-level {
+  border: 1px solid rgba(72, 126, 150, 0.05);
+  background-color: rgb(241, 182, 4);
+  color: #fff;
+}
+
+.intermediate-level-text {
+  color: rgb(241, 182, 4);
+  border: 1px solid rgb(241, 182, 4);
+}
+
 .card-content-description {
   font-size: 0.9rem;
   line-height:1.4;
   color: rgb(119, 123, 131);
 }
+
+
