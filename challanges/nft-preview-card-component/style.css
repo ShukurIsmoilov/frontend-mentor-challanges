@@ -1,0 +1,116 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    color: white;
+    font-family: Outfit;
+}
+
+img {
+    width: 100%;
+}
+
+.card {
+    width: 300px;
+    margin: 20px auto 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: hsl(216, 50%, 16%);
+    color: hsl(215, 51%, 70%);
+}
+
+.card-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    background: url('./images/image-equilibrium.jpg') center no-repeat;
+    background-size: cover;
+}
+
+.card-image__view {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.card-image__view:hover {
+    background: hsla(178, 100%, 50%, 0.5) url('./images/icon-view.svg') center no-repeat;
+    cursor: pointer;
+}
+
+
+.card-name {
+    margin-bottom: 10px;
+    color: hsl(0, 0%, 100%);
+}
+
+.card-name:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.card-description {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.card-details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+.card-details__etherum {
+    margin-top: 3px;
+    margin-right: 5px;
+}
+
+.card-details__price {
+    justify-self: start;
+    margin-right: auto;
+    font-weight: 600;
+    color: hsl(178, 100%, 50%);
+}
+
+.card-details__clock {
+    margin-top: 3px;
+    margin-right: 5px;
+}
+
+.card-creator {
+    display: flex;
+    align-items: center;
+    color: hsl(0, 0%, 100%);
+}
+
+.card-creator__image {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    background: url('./images/image-avatar.png') center no-repeat;
+    background-size: cover;
+}
+
+.card-creator__description {
+    color: hsl(215, 51%, 70%);
+}
+
+.card-creator__name {
+    text-decoration: none;
+    color: hsl(0, 0%, 99%);
+}
+
+.card-creator__name:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
